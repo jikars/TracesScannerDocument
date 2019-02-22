@@ -1,1 +1,1 @@
-include ':app', ':qrscanner'
+include ':app', ':scanner', ':scanner.ui', ':scanner.interpreter', ':scanner.core'

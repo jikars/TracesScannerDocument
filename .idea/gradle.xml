@@ -9,7 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/qrscanner" />
+            <option value="$PROJECT_DIR$/scanner" />
+            <option value="$PROJECT_DIR$/scanner.core" />
+            <option value="$PROJECT_DIR$/scanner.interpreter" />
+            <option value="$PROJECT_DIR$/scanner.ui" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

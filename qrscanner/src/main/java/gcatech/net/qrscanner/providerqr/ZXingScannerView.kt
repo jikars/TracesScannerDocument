@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.RelativeLayout
+import com.google.zxing.BarcodeFormat
 import com.google.zxing.Result
 import gcatech.net.qrscanner.R
 import gcatech.net.qrscanner.handler.QRResultHandler
@@ -21,7 +22,9 @@ internal class ZXingScannerView @JvmOverloads  constructor(context: Context?, at
 
     override fun startScanner() {
         if(qrResultHandler != null){
+            scanner.setIsBorderCornerRounded(false)
             scanner.setResultHandler(this)
+            scanner.setFormats(listOf(BarcodeFormat.PDF_417))
             scanner.startCamera()
         }
     }
