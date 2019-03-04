@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:layout_height="80dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/guideline">
+
+        <TextView
+            android:id="@+id/titleInput"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Title"
+            />
+
+        <EditText
+            android:id="@+id/inputProp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/inputModeContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal" />
+
+
+</android.support.constraint.ConstraintLayout>

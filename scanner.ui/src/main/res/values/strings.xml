@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">scanner.ui</string>
+    <string name="name">Name</string>
+    <string name="numberIdentifier">Number Identifier</string>
+    <string name="birthDate">Birth  Date</string>
+    <string name="stature">Stature</string>
+    <string name="rh">RH</string>
+    <string name="gender">Gender</string>
+    <string name="datePlaceOfExpedition">Date Expedition</string>
 </resources>

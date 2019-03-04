@@ -1,1 +1,1 @@
-include ':app', ':scanner', ':scanner.ui', ':scanner.interpreter', ':scanner.core'
+include ':app', ':scanner', ':scanner.ui', ':scanner.core'
